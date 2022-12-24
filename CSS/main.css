@@ -150,7 +150,12 @@ header h6 {
     width: 20%;
     margin: 0 5px;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+    .search select.middle {
+        width: 32.5%;
+     }
+}
+@media (min-width:600px) {
     .search select {
         font-size: 16px;
     }
