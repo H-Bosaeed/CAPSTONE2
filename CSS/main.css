@@ -113,7 +113,7 @@ header h6 {
 .content .section img {
     width: 80%;
 }
-@media (min-width: 1000px) {
+@media (min-width: 820px) {
     .content .section {
         width: 15%;
     }
@@ -263,19 +263,22 @@ header h6 {
         top: 60%
     }
 }
-@media (min-width: 880px) {
+@media (min-width: 820px) {
     .container {
-        top: 70%
+        top: 48%
+    }
+    .content .section a p{
+        font-size: 18px;
     }
 }
 @media (min-width: 1190px) {
     .container {
-        top: 60%
+        top: 50%
     }
 }
 @media (min-width: 1300px) {
     .container {
-        top: 75%
+        top: 58.5%
     }
 }
 
