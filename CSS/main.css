@@ -24,7 +24,7 @@ html {
     margin-right: auto;
     height: 100%;
     position: fixed;
-    top: 42.5%;
+    top: 50%;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -46,13 +46,13 @@ header .support {
 }
 header .support a {
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
     /* margin-right: 5px; */
     width: 100%;
     color: white;
 }
 header .support a h5 {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
     margin-left: 5px;
@@ -71,8 +71,11 @@ header h6 {
 .title {
     display: flex;
     align-items: center;
-    margin-top: 2.5%;
+    margin-top: 0.5%;
 }
+/* @media (min-width:1000px) {
+    
+} */
 .title .image {
     display: flex;
     width: 100%;
@@ -109,6 +112,11 @@ header h6 {
 }
 .content .section img {
     width: 80%;
+}
+@media (min-width: 1000px) {
+    .content .section {
+        width: 15%;
+    }
 }
 .content .section p {
     display: flex;
@@ -250,11 +258,28 @@ header h6 {
     }
 }
 
+@media (min-width: 600px) {
+    .container {
+        top: 60%
+    }
+}
+@media (min-width: 880px) {
+    .container {
+        top: 70%
+    }
+}
+@media (min-width: 1190px) {
+    .container {
+        top: 60%
+    }
+}
+@media (min-width: 1300px) {
+    .container {
+        top: 75%
+    }
+}
 
 @media (min-width: 500px) { 
-    .container {
-        width: 100%
-    }
     header {
         height: 30px;
     }
