@@ -16,3 +16,52 @@
     font-style: italic;
     font-weight: 600;
 }
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.container form label {
+    text-align: right;
+    margin: 8px 0;
+}
+.container form input {
+    width: 100%;
+    margin: 10px 0;
+}
+.container form select {
+    margin: 5px;
+}
+.container form textarea {
+    margin-bottom: 20px;
+}
+.container form input.submit {
+    background-color: tomato;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+footer span:first-child {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+footer span:last-child {
+    font-size: 28px;
+}
+footer .images {
+    display: flex;
+    justify-content: center;
+}
+footer .images img {
+    width: 150px;
+}
