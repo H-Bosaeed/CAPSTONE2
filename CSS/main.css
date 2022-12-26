@@ -292,7 +292,7 @@ header h6 {
         font-size: 18px;
     }
 }
-@media (min-width: 1190px) {
+@media (min-width: 880px) {
     .container {
         top: 50%
     }
