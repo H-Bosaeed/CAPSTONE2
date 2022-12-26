@@ -1,0 +1,17 @@
+.container {
+    top: 0%;
+    width: 100%;
+}
+.container .search {
+    height: fit-content;
+    padding: 5px 35px ;
+    font-size: 14px;
+    display: block;
+    text-align: center;    
+}
+.container .search .welcome {
+    display: block;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
