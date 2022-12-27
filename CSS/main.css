@@ -297,12 +297,16 @@ header h6 {
         top: 53%
     }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1160px) {
     .container {
-        top: 58.5%
+        top: 55%
     }
 }
-
+@media (min-width: 1250px) {
+    .container {
+        top: 60%
+    }
+}
 @media (min-width: 500px) { 
     header {
         height: 30px;

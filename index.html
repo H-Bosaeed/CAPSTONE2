@@ -12,8 +12,6 @@
         <script src="JS/main.js"></script>
     </head>
     <body>
-        <!-- class="cover" is used if any changes needed for the whole background of the website -->
-        
             <div class="fixed">
                 <header>
                     <div class="support" >
@@ -31,111 +29,109 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="search">
-                    <!-- <div class="build-num"> -->
-                        <label for="build-num"></label>
-                            <select name="build-num" id="build-num" onchange="window.location.href=this.value;">
-                                <option value="" selected></a>رقم المبنى</option>
-                                <option value="#1">1</option>
-                                <option value="#2">2</option>
-                                <option value="#3">3</option>
-                                <option value="#4">4</option>
-                                <option value="#5">5</option>
-                                <option value="#6">6</option>
-                                <option value="#7">7</option>
-                                <option value="#8">8</option>
-                                <option value="#9">9</option>
-                                <option value="#10">10</option>
-                                <option value="#11">11</option>
-                                <option value="#12">12</option>
-                                <option value="#13">13</option>
-                                <option value="#14">14</option>
-                                <option value="#15">15</option>
-                                <option value="#16">16</option>
-                                <option value="#17">17</option>
-                                <option value="#18">18</option>
-                                <option value="#19">19</option>
-                                <option value="#20">20</option>
-                                <option value="#21">21</option>
-                                <option value="#22">22</option>
-                                <option value="#23">23</option>
-                                <option value="#24">24</option>
-                                <option value="#25">25</option>
-                                <option value="#26">26</option>
-                                <option value="#27">27</option>
-                                <option value="#28">28</option>
-                                <option value="#29">29</option>
-                                <option value="#30">30</option>
-                                <option value="#31">31</option>
-                                <option value="#32">32</option>
-                                <option value="#33">33</option>
-                                <option value="#34">34</option>
-                                <option value="#35">35</option>
-                                <option value="#36">36</option>
-                                <option value="#37">37</option>
-                                <option value="#38">38</option>
-                                <option value="#39">39</option>
-                                <option value="#40">40</option>
-                                <option value="#41">41</option>
-                                <option value="#42">42</option>
-                                <option value="#43">43</option>
-                                <option value="#44">44</option>
-                                <option value="#45">45</option>
-                                <option value="#46">46</option>
-                                <option value="#47">47</option>
-                                <option value="#48">48</option>
-                            </select>
-                            <label for="build-name"></label>
-                            <select class="middle" name="build-name" id="build-name" onchange="window.location.href=this.value;">
-                                <option value=""> اسم الكلية / المعامل</option>
-                                <option value="#42">كلية الحاسبات</option>
-                                <option value="#24">كلية المجتمع</option>
-                                <option value="#31">كلية الشريعة</option>
-                                <option value="#32">كلية ادارة الاعمال</option>
-                                <option value="#37">كلية العلوم - فيزياء/كيمياء</option>
-                                <option value="#35">كلية العلوم - رياضيات</option>
-                                <option value="#22">مكاتب كلية الهندسة - للمعلمين</option>
-                                <option value="#9">عمادة كلية الهندسة - للمعلمات </option>
-                                <option value="#11">قسم الهندسة الصناعية</option>
-                                <option value="#13">قسم الهندسة الميكانيكية</option>
-                                <option value="#14">معامل كلية الهندسة</option>
-                                <option value="#37">معامل كلية العلوم</option>
-                                <option value="#46">معامل كلية الحاسبات</option>
-                            </select>
-                            <label for="facility"></label>
-                            <select name="facility" id="facility" onchange="window.location.href=this.value;">
-                                <option value="">المرافق</option>
-                                <option value="#1">عمادة شؤون الطلاب</option>
-                                <option value="#2">القاعة الكبرى</option>
-                                <option value="#3">القاعة الصغرى</option>
-                                <option value="#4">ادارة الجامعة</option>
-                                <option value="#5">مبنى اختبار القدرات</option>
-                                <option value="#6">مبنى المسبح</option>
-                                <option value="#7">مستودع التشغيل والصيانة</option>
-                                <option value="#8">المكتبة المركزية</option>
-                                <option value="#34">المسجد الكبير</option>
-                                <option value="#10">المسجد</option>
-                                <option value="#12">ادارة الامن الجامعي</option>
-                                <option value="#19">مركز البحوث</option>
-                                <option value="#20">ادارة الشبكة الهاتفية والاعلام</option>
-                                <option value="#12">ادارة الصيانة والتشغيل</option>
-                                <option value="#25">عمادة القبول والتسجيل</option>
-                                <option value="#26">عمادة تقنية المعلومات</option>
-                                <option value="#27">عمادة الدراسات المساندة</option>
-                                <option value="#28">الادارات المساندة</option>
-                                <option value="#29">ادارة المشاريع</option>
-                                <option value="#29">المطعم الجامعي</option>
-                                <option value="#36">مبنى وكالات الجامعة</option>
-                                <option value="#40">مبنى العمادات المساندة</option>
-                                <option value="#41">الادارة الطبية-المستوصف</option>
-                                <option value="#43">المعشبة</option>
-                                <option value="#44">استخراج تصريح دخول للجامعة</option>
-                                <option value="#45">عمادة البحث العلمي</option>
-                                <option value="#46">تربية الحيوان</option>
-                                <option value="#47">ادارة المستودعات</option>
-                                <option value="#48">المجهر الالكتروني</option>
-                            </select>
+                    <label for="build-num"></label>
+                        <select name="build-num" id="build-num" onchange="window.location.href=this.value;">
+                            <option value="" selected></a>رقم المبنى</option>
+                            <option value="#1">1</option>
+                            <option value="#2">2</option>
+                            <option value="#3">3</option>
+                            <option value="#4">4</option>
+                            <option value="#5">5</option>
+                            <option value="#6">6</option>
+                            <option value="#7">7</option>
+                            <option value="#8">8</option>
+                            <option value="#9">9</option>
+                            <option value="#10">10</option>
+                            <option value="#11">11</option>
+                            <option value="#12">12</option>
+                            <option value="#13">13</option>
+                            <option value="#14">14</option>
+                            <option value="#15">15</option>
+                            <option value="#16">16</option>
+                            <option value="#17">17</option>
+                            <option value="#18">18</option>
+                            <option value="#19">19</option>
+                            <option value="#20">20</option>
+                            <option value="#21">21</option>
+                            <option value="#22">22</option>
+                            <option value="#23">23</option>
+                            <option value="#24">24</option>
+                            <option value="#25">25</option>
+                            <option value="#26">26</option>
+                            <option value="#27">27</option>
+                            <option value="#28">28</option>
+                            <option value="#29">29</option>
+                            <option value="#30">30</option>
+                            <option value="#31">31</option>
+                            <option value="#32">32</option>
+                            <option value="#33">33</option>
+                            <option value="#34">34</option>
+                            <option value="#35">35</option>
+                            <option value="#36">36</option>
+                            <option value="#37">37</option>
+                            <option value="#38">38</option>
+                            <option value="#39">39</option>
+                            <option value="#40">40</option>
+                            <option value="#41">41</option>
+                            <option value="#42">42</option>
+                            <option value="#43">43</option>
+                            <option value="#44">44</option>
+                            <option value="#45">45</option>
+                            <option value="#46">46</option>
+                            <option value="#47">47</option>
+                            <option value="#48">48</option>
+                        </select>
+                    <label for="build-name"></label>
+                        <select class="middle" name="build-name" id="build-name" onchange="window.location.href=this.value;">
+                            <option value=""> اسم الكلية / المعامل</option>
+                            <option value="#42">كلية الحاسبات</option>
+                            <option value="#24">كلية المجتمع</option>
+                            <option value="#31">كلية الشريعة</option>
+                            <option value="#32">كلية ادارة الاعمال</option>
+                            <option value="#37">كلية العلوم - فيزياء/كيمياء</option>
+                            <option value="#35">كلية العلوم - رياضيات</option>
+                            <option value="#22">مكاتب كلية الهندسة - للمعلمين</option>
+                            <option value="#9">عمادة كلية الهندسة - للمعلمات </option>
+                            <option value="#11">قسم الهندسة الصناعية</option>
+                            <option value="#13">قسم الهندسة الميكانيكية</option>
+                            <option value="#14">معامل كلية الهندسة</option>
+                            <option value="#37">معامل كلية العلوم</option>
+                            <option value="#46">معامل كلية الحاسبات</option>
+                        </select>
+                    <label for="facility"></label>
+                        <select name="facility" id="facility" onchange="window.location.href=this.value;">
+                            <option value="">المرافق</option>
+                            <option value="#1">عمادة شؤون الطلاب</option>
+                            <option value="#2">القاعة الكبرى</option>
+                            <option value="#3">القاعة الصغرى</option>
+                            <option value="#4">ادارة الجامعة</option>
+                            <option value="#5">مبنى اختبار القدرات</option>
+                            <option value="#6">مبنى المسبح</option>
+                            <option value="#7">مستودع التشغيل والصيانة</option>
+                            <option value="#8">المكتبة المركزية</option>
+                            <option value="#34">المسجد الكبير</option>
+                            <option value="#10">المسجد</option>
+                            <option value="#12">ادارة الامن الجامعي</option>
+                            <option value="#19">مركز البحوث</option>
+                            <option value="#20">ادارة الشبكة الهاتفية والاعلام</option>
+                            <option value="#12">ادارة الصيانة والتشغيل</option>
+                            <option value="#25">عمادة القبول والتسجيل</option>
+                            <option value="#26">عمادة تقنية المعلومات</option>
+                            <option value="#27">عمادة الدراسات المساندة</option>
+                            <option value="#28">الادارات المساندة</option>
+                            <option value="#29">ادارة المشاريع</option>
+                            <option value="#29">المطعم الجامعي</option>
+                            <option value="#36">مبنى وكالات الجامعة</option>
+                            <option value="#40">مبنى العمادات المساندة</option>
+                            <option value="#41">الادارة الطبية-المستوصف</option>
+                            <option value="#43">المعشبة</option>
+                            <option value="#44">استخراج تصريح دخول للجامعة</option>
+                            <option value="#45">عمادة البحث العلمي</option>
+                            <option value="#46">تربية الحيوان</option>
+                            <option value="#47">ادارة المستودعات</option>
+                            <option value="#48">المجهر الالكتروني</option>
+                        </select>
                 </div>
                 <div class="content">
                     <div class="section">
@@ -143,15 +139,13 @@
                             <img src=" images/كيف نعرف القاعة.jpg" alt="كيف نعرف القاعة">
                             <p>كيف نعرف القاعة</p>
                         </a>
-                    </div>
-                    
+                    </div>       
                     <div class="section">
                         <a href="UniversityMap.html">
                             <img src="images/خريطة الجامعة.jpg" alt="خريطة الجامعة">
                             <p>خريطة الجامعة</p>
                         </a>
                     </div>
-        
                     <div class="section">
                         <a href="Gates.html">
                             <img src="images/بوابات الجامعة.jpg" alt="بوابات الجامعة">
@@ -164,20 +158,13 @@
                 <div class="facility-content">
                     <div class="facility-info" id="1">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 1
-                            </div>
-                            <div class="name">
-                                اسم المبنى : عمادة شؤون الطلاب / النادي الرياضي
-                            </div>
+                            <div class="number">رقم المبنى : 1</div>
+                            <div class="name">اسم المبنى : عمادة شؤون الطلاب / النادي الرياضي</div>
                             <div class="location">
-                                <a href="https://goo.gl/maps/V96AMJAzYq5E3BgZ9">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://goo.gl/maps/V96AMJAzYq5E3BgZ9">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -187,38 +174,27 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يتم اصدار البطاقة الجامعية هنا، كما يوجد نادي رياضي لجميع المنسوبين    
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building1.jpeg" alt="عمادة شؤون الطلاب: مبنى 1">
-                        </div>
+                        <div class="facility-img"> <img src="images/building1.jpeg" alt="عمادة شؤون الطلاب: مبنى 1"> </div>
                     </div>
                     <div class="facility-info" id="2">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 2
-                            </div>
-                            <div class="name">
-                                اسم المبنى : القاعة الكبرى
-                            </div>
+                            <div class="number">رقم المبنى : 2</div>
+                            <div class="name">اسم المبنى : القاعة الكبرى</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/pK8NyBGHinMAfPfm9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/pK8NyBGHinMAfPfm9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
-                                <script> /*If work time changes > change the function*/
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
+                                <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
                                         document.write("<font color=\"red\">"+ finished +"</font>");
@@ -228,36 +204,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : ويكون فيها استضافة العديد من الاحداث مثل المؤتمرات، استعراض مشاريع التخرج وغيرها    
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building2.jpeg" alt="القاعة الكبرى: مبنى 2">
-                        </div>
+                        <div class="facility-img"> <img src="images/building2.jpeg" alt="القاعة الكبرى: مبنى 2"> </div>
                     </div>
                     <div class="facility-info" id="3">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 3
-                            </div>
-                            <div class="name">
-                                اسم المبنى : القاعة الصغرى
-                            </div>
+                            <div class="number">رقم المبنى : 3</div>
+                            <div class="name">اسم المبنى : القاعة الصغرى</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/iSmEKkv4yDfgHzeQ9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/iSmEKkv4yDfgHzeQ9?g_st=iw">مكان المبنى :https://googlemap.com </a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -267,37 +232,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يتم استضافة بعض الانشطة والدورات فيها
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building3.jpeg" alt="القاعة الصغرى: مبنى 3">
-                        </div>
+                        <div class="facility-img"> <img src="images/building3.jpeg" alt="القاعة الصغرى: مبنى 3"></div>
                     </div>
                     <div class="facility-info" id="4">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 4
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة الجامعة
-                            </div>
+                            <div class="number">رقم المبنى : 4</div>
+                            <div class="name">اسم المبنى : ادارة الجامعة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/tRa7je9VV9wZaAcS9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/tRa7je9VV9wZaAcS9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -307,37 +261,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يتضمن مكتب رئيس الجامعة والادارة العليا بالجامعة    
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building4.jpeg" alt="ادارة الجامعة: مبنى 4">
-                        </div>
+                        <div class="facility-img"> <img src="images/building4.jpeg" alt="ادارة الجامعة: مبنى 4"> </div>
                     </div>
                     <div class="facility-info" id="5">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 5
-                            </div>
-                            <div class="name">
-                                اسم المبنى : قاعات ومكاتب هئية التدريس
-                            </div>
+                            <div class="number">رقم المبنى : 5</div>
+                            <div class="name">اسم المبنى : قاعات ومكاتب هئية التدريس</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/BHfgnQJyRUany2fs6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/BHfgnQJyRUany2fs6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -347,37 +290,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {                                        
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    }                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وفيه تتم الاختبارات الورقية المقدمة من المركز الوطني للقياس مثل اختبار القدرات العامة، واختبار التحصيل الدراسي    
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building5.jpeg  " alt="قاعات ومكاتب هئية التدريس: مبنى 5">
-                        </div>
+                        <div class="facility-img"> <img src="images/building5.jpeg  " alt="قاعات ومكاتب هئية التدريس: مبنى 5"> </div>
                     </div>
                     <div class="facility-info" id="6">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 6
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المسبح
-                            </div>
+                            <div class="number">رقم المبنى : 6</div>
+                            <div class="name">اسم المبنى : المسبح</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/xudMHn7N6K1jk1sR6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/xudMHn7N6K1jk1sR6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -388,36 +320,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    }                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية :     
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building6.jpeg" alt="المسبح: مبنى 6">
-                        </div>
+                        <div class="facility-img"> <img src="images/building6.jpeg" alt="المسبح: مبنى 6"> </div>
                     </div>
                     <div class="facility-info" id="7">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 7
-                            </div>
-                            <div class="name">
-                                اسم المبنى : مستودع التشغيل والصيانة
-                            </div>
+                            <div class="number">رقم المبنى : 7</div>
+                            <div class="name">اسم المبنى : مستودع التشغيل والصيانة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/kFT1wjZMFqZLxeQ36?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/kFT1wjZMFqZLxeQ36?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -428,36 +349,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building7.jpeg" alt="مستودع التشغيل والصيانة: مبنى 7">
-                        </div>
+                        <div class="facility-img"><img src="images/building7.jpeg" alt="مستودع التشغيل والصيانة: مبنى 7"></div>
                     </div>
                     <div class="facility-info" id="8">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 8
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المكتبة المركزية
-                            </div>
+                            <div class="number">رقم المبنى : 8</div>
+                            <div class="name">اسم المبنى : المكتبة المركزية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/zGRQP4UuDoHqZhEYA?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/zGRQP4UuDoHqZhEYA?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -468,36 +378,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    }                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وفيها العديد من الخدمات لمنسوبي الجامعة مثل حجز بعض الغرفة المغلقة للدراسة او الاجتماعات
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src="images/building8.jpeg" alt="المكتبة المركزية: مبنى 8">
-                        </div>
+                        <div class="facility-img"><img src="images/building8.jpeg" alt="المكتبة المركزية: مبنى 8"></div>
                     </div>
                     <div class="facility-info" id="9">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 9
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية الهندسة - للمعلمات
-                            </div>
+                            <div class="number">رقم المبنى : 9</div>
+                            <div class="name">اسم المبنى : كلية الهندسة - للمعلمات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/dyD41zK3ruA9h5Wm8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/dyD41zK3ruA9h5Wm8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -508,36 +407,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وفيها بعض المكاتب للمعلمات في كلية الهندسة
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building9.jpeg" alt="كلية الهندسة - للمعلمات: مبنى 9">
-                        </div>
+                        <div class="facility-img"><img src=" images/building9.jpeg" alt="كلية الهندسة - للمعلمات: مبنى 9"></div>
                     </div>
                     <div class="facility-info" id="10">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 10
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المسجد
-                            </div>
+                            <div class="number">رقم المبنى : 10</div>
+                            <div class="name">اسم المبنى : المسجد</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/TmGG6vsZmmjxWEV17?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/TmGG6vsZmmjxWEV17?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -548,36 +436,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يعتبر المسجد المصغر فالجامعة
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building10.jpeg" alt="المسجد: مبنى 10">
-                        </div>
+                        <div class="facility-img"><img src=" images/building10.jpeg" alt="المسجد: مبنى 10"></div>
                     </div>
                     <div class="facility-info" id="11">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 11
-                            </div>
-                            <div class="name">
-                                اسم المبنى : قسم الهندسة الصناعية
-                            </div>
+                            <div class="number">رقم المبنى : 11</div>
+                            <div class="name">اسم المبنى : قسم الهندسة الصناعية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/N6hz78ixe77PTQbr8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/N6hz78ixe77PTQbr8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -588,36 +465,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building11.jpeg" alt="قسم الهندسة الصناعية: مبنى 11">
-                        </div>
+                        <div class="facility-img"><img src=" images/building11.jpeg" alt="قسم الهندسة الصناعية: مبنى 11"></div>
                     </div>
                     <div class="facility-info" id="12">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 12
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة الامن الجامعي
-                            </div>
+                            <div class="number">رقم المبنى : 12</div>
+                            <div class="name">اسم المبنى : ادارة الامن الجامعي</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/h9vmHbh6GKYRnFgu6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/h9vmHbh6GKYRnFgu6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -628,36 +494,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building12.jpeg" alt="ادارة الامن الجامعي: مبنى 12">
-                        </div>
+                        <div class="facility-img"><img src=" images/building12.jpeg" alt="ادارة الامن الجامعي: مبنى 12"></div>
                     </div>
                     <div class="facility-info" id="13">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 13
-                            </div>
-                            <div class="name">
-                                اسم المبنى : قسم الهندسة الميكانيكية
-                            </div>
+                            <div class="number">رقم المبنى : 13</div>
+                            <div class="name">اسم المبنى : قسم الهندسة الميكانيكية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/5fhqhnGGNRt6bogh8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/5fhqhnGGNRt6bogh8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -668,36 +523,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building13.jpeg" alt="قسم الهندسة الميكانيكية: مبنى 13">
-                        </div>
+                        <div class="facility-img"><img src=" images/building13.jpeg" alt="قسم الهندسة الميكانيكية: مبنى 13"></div>
                     </div>
                     <div class="facility-info" id="14">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 14
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الهندسة
-                            </div>
+                            <div class="number">رقم المبنى : 14</div>
+                            <div class="name">اسم المبنى : معامل كلية الهندسة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/1mzC1YbdDPuQToLe7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/1mzC1YbdDPuQToLe7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -708,36 +552,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building14.jpeg" alt="معامل كلية الهندسة: مبنى 14">
-                        </div>
+                        <div class="facility-img"><img src=" images/building14.jpeg" alt="معامل كلية الهندسة: مبنى 14"></div>
                     </div>
                     <div class="facility-info" id="15">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 15
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الهندسة
-                            </div>
+                            <div class="number">رقم المبنى : 15</div>
+                            <div class="name">اسم المبنى : معامل كلية الهندسة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/x1ARyS2oMzMcspCW8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/x1ARyS2oMzMcspCW8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -748,36 +581,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building15.jpeg" alt="معامل كلية الهندسة: مبنى 15">
-                        </div>
+                        <div class="facility-img"><img src=" images/building15.jpeg" alt="معامل كلية الهندسة: مبنى 15"></div>
                     </div>
                     <div class="facility-info" id="16">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 16
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الهندسة
-                            </div>
+                            <div class="number">رقم المبنى : 16</div>
+                            <div class="name">اسم المبنى : معامل كلية الهندسة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/9C9kMKmSWNtLSUaj7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/9C9kMKmSWNtLSUaj7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -788,36 +610,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building16.jpeg" alt="معامل كلية الهندسة: مبنى 16">
-                        </div>
+                        <div class="facility-img"><img src=" images/building16.jpeg" alt="معامل كلية الهندسة: مبنى 16"></div>
                     </div>
                     <div class="facility-info" id="17">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 17
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الهندسة
-                            </div>
+                            <div class="number">رقم المبنى : 17</div>
+                            <div class="name">اسم المبنى : معامل كلية الهندسة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/mgVChDbWNMK5qoZDA?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/mgVChDbWNMK5qoZDA?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -828,36 +639,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building17.jpeg" alt="معامل كلية الهندسة: مبنى 17">
-                        </div>
+                        <div class="facility-img"><img src=" images/building17.jpeg" alt="معامل كلية الهندسة: مبنى 17"></div>
                     </div>
                     <div class="facility-info" id="18">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 18
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الهندسة
-                            </div>
+                            <div class="number">رقم المبنى : 18</div>
+                            <div class="name">اسم المبنى : معامل كلية الهندسة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/5T8Tt5FbCrMd94H79?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/5T8Tt5FbCrMd94H79?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -868,36 +668,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building18.jpeg" alt="معامل كلية الهندسة: مبنى 18">
-                        </div>
+                        <div class="facility-img"><img src=" images/building18.jpeg" alt="معامل كلية الهندسة: مبنى 18"></div>
                     </div>
                     <div class="facility-info" id="19">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 19
-                            </div>
-                            <div class="name">
-                                اسم المبنى : مركز البحوث والاستشارات
-                            </div>
+                            <div class="number">رقم المبنى : 19</div>
+                            <div class="name">اسم المبنى : مركز البحوث والاستشارات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/6eUZzsG4J9HGZh1b6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/6eUZzsG4J9HGZh1b6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -908,36 +697,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building19.jpeg" alt="مركز البحوث والاستشارات: مبنى 19">
-                        </div>
+                        <div class="facility-img"><img src=" images/building19.jpeg" alt="مركز البحوث والاستشارات: مبنى 19"></div>
                     </div>
                     <div class="facility-info" id="20">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 20
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة الشبكة الهاتفية والاعلام 
-                            </div>
+                            <div class="number">رقم المبنى : 20</div>
+                            <div class="name">اسم المبنى : ادارة الشبكة الهاتفية والاعلام </div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/CdYWeruNLnBpUTuB8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/CdYWeruNLnBpUTuB8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -956,26 +734,17 @@
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building20.jpeg" alt="ادارة الشبكة الهاتفية والاعلام: مبنى 20">
-                        </div>
+                        <div class="facility-img"><img src=" images/building20.jpeg" alt="ادارة الشبكة الهاتفية والاعلام: مبنى 20"></div>
                     </div>
                     <div class="facility-info" id="21">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 21
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة الصيانة والتشغيل / الدعم الاكاديمي
-                            </div>
+                            <div class="number">رقم المبنى : 21</div>
+                            <div class="name">اسم المبنى : ادارة الصيانة والتشغيل / الدعم الاكاديمي</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/RuqcYoSbPFk6SZu68?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/RuqcYoSbPFk6SZu68?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -986,19 +755,15 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building21.jpeg" alt="ادارة الصيانة والتشغيل / الدعم الفني: مبنى 21">
-                        </div>
+                        <div class="facility-img"><img src=" images/building21.jpeg" alt="ادارة الصيانة والتشغيل / الدعم الفني: مبنى 21"></div>
                     </div>
                     <div class="facility-info" id="22">
                         <div class="info">
@@ -1014,8 +779,7 @@
                                 </a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1026,36 +790,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building22.jpeg" alt="قاعات ومكاتب ومعامل كلية الهندسة مبنى 22">
-                        </div>
+                        <div class="facility-img"><img src=" images/building22.jpeg" alt="قاعات ومكاتب ومعامل كلية الهندسة مبنى 22"></div>
                     </div>
                     <div class="facility-info" id="23">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 23
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معمل الهندسة المدنية
-                            </div>
+                            <div class="number">رقم المبنى : 23</div>
+                            <div class="name">اسم المبنى : معمل الهندسة المدنية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/nK7LtTepHRgHu2hX7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/nK7LtTepHRgHu2hX7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1065,37 +818,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    }  
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building23.jpeg" alt="معمل الهندسة المدنية: مبنى 23">
-                        </div>
+                        <div class="facility-img"><img src=" images/building23.jpeg" alt="معمل الهندسة المدنية: مبنى 23"></div>
                     </div>
                     <div class="facility-info" id="24">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 24
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية المجتمع
-                            </div>
+                            <div class="number">رقم المبنى : 24</div>
+                            <div class="name">اسم المبنى : كلية المجتمع</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/TexPeiopmqZo55pg7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/TexPeiopmqZo55pg7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>                                
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1105,37 +847,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building24.jpeg" alt="كلية المجتمع: مبنى 24">
-                        </div>
+                        <div class="facility-img"><img src=" images/building24.jpeg" alt="كلية المجتمع: مبنى 24"></div>
                     </div>
                     <div class="facility-info" id="25">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 25
-                            </div>
-                            <div class="name">
-                                اسم المبنى : عمادة القبول والتسجيل
-                            </div>
+                            <div class="number">رقم المبنى : 25</div>
+                            <div class="name">اسم المبنى : عمادة القبول والتسجيل</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/5dv54erDEKfoLSQA9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/5dv54erDEKfoLSQA9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1145,37 +876,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {     
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    } 
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : تعتبر عمادة القبول هي المسؤولة عن تسجيل المستجدين في الجامعة او التحويل بين التخصصات
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building25.jpeg" alt="عمادة القبول والتسجيل: مبنى 25">
-                        </div>
+                        <div class="facility-img"><img src=" images/building25.jpeg" alt="عمادة القبول والتسجيل: مبنى 25"></div>
                     </div>
                     <div class="facility-info" id="26">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 26
-                            </div>
-                            <div class="name">
-                                اسم المبنى : عمادة تقنية المعلومات
-                            </div>
+                            <div class="number">رقم المبنى : 26</div>
+                            <div class="name">اسم المبنى : عمادة تقنية المعلومات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/2mH6vbrPqGg7q6qx8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/2mH6vbrPqGg7q6qx8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1185,37 +905,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) { 
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وتعتبر مسؤولة عن الخدمات الالكترونية داخل الجامعة مثل الايميل الجامعي، وشبكة الانترنت داخل الحرم الجامعي
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building26.jpeg" alt="عمادة تقنية المعلومات: مبنى 26">
-                        </div>
+                        <div class="facility-img"><img src=" images/building26.jpeg" alt="عمادة تقنية المعلومات: مبنى 26"></div>
                     </div>
                     <div class="facility-info" id="27">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 27
-                            </div>
-                            <div class="name">
-                                اسم المبنى : عمادة الدراسات المساندة
-                            </div>
+                            <div class="number">رقم المبنى : 27</div>
+                            <div class="name">اسم المبنى : عمادة الدراسات المساندة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/YrSWZK6J1VGQM8Gd9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/YrSWZK6J1VGQM8Gd9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1225,37 +934,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
-                                    }
-                                    
+                                    }   
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وفيها عمادة خدمة المجتمع والتنمية المستدامة، ومركز الابتكار وريادة الاعمال
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building27.jpeg" alt="عمادة الدراسات المساندة: مبنى 27">
-                        </div>
+                        <div class="facility-img"><img src=" images/building27.jpeg" alt="عمادة الدراسات المساندة: مبنى 27"></div>
                     </div>
                     <div class="facility-info" id="28">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 28
-                            </div>
-                            <div class="name">
-                                اسم المبنى : الادارات المساندة
-                            </div>
+                            <div class="number">رقم المبنى : 28</div>
+                            <div class="name">اسم المبنى : الادارات المساندة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/cJw3aheiHTp9XLLB9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/cJw3aheiHTp9XLLB9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>                                
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1265,37 +963,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building28.jpeg" alt="الادارات المساندة: مبنى 28">
-                        </div>
+                        <div class="facility-img"><img src=" images/building28.jpeg" alt="الادارات المساندة: مبنى 28"></div>
                     </div>
                     <div class="facility-info" id="29">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 29
-                            </div>
-                            <div class="name">
-                                اسم المبنى : قاعات دراسية
-                            </div>
+                            <div class="number">رقم المبنى : 29</div>
+                            <div class="name">اسم المبنى : قاعات دراسية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/zDGMWC7kLxmYWUi39?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/zDGMWC7kLxmYWUi39?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1305,37 +992,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) { 
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building29.jpeg" alt="قاعات دراسية: مبنى 29">
-                        </div>
+                        <div class="facility-img"><img src=" images/building29.jpeg" alt="قاعات دراسية: مبنى 29"></div>
                     </div>
                     <div class="facility-info" id="30">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 30
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة المشاريع والصيانة
-                            </div>
+                            <div class="number">رقم المبنى : 30</div>
+                            <div class="name">اسم المبنى : ادارة المشاريع والصيانة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/zbW5uRHNJnz7j3r97?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/zbW5uRHNJnz7j3r97?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1345,37 +1021,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building30.jpeg" alt="ادارة المشاريع والصيانة:: مبنى 30">
-                        </div>
+                        <div class="facility-img"><img src=" images/building30.jpeg" alt="ادارة المشاريع والصيانة:: مبنى 30"></div>
                     </div>
                     <div class="facility-info" id="31">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 31
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية الشريعة والانظمة
-                            </div>
+                            <div class="number">رقم المبنى : 31</div>
+                            <div class="name">اسم المبنى : كلية الشريعة والانظمة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/EH6gDDCN4DHs6xLg8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/EH6gDDCN4DHs6xLg8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1386,36 +1051,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : وفيها مكاتب اعضاء هئية التدريس في كلية الشريعة
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building31.jpeg" alt="كلية الشريعة والانظمة: مبنى 31">
-                        </div>
+                        <div class="facility-img"><img src=" images/building31.jpeg" alt="كلية الشريعة والانظمة: مبنى 31"></div>
                     </div>
                     <div class="facility-info" id="32">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 32
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية ادارة الاعمال
-                            </div>
+                            <div class="number">رقم المبنى : 32</div>
+                            <div class="name">اسم المبنى : كلية ادارة الاعمال</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/fJPByLi3pAHPS2Nv8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/fJPByLi3pAHPS2Nv8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1426,38 +1080,26 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building32.jpeg" alt="كلية ادارة الاعمال: مبنى 32">
-                        </div>
+                        <div class="facility-img"><img src=" images/building32.jpeg" alt="كلية ادارة الاعمال: مبنى 32"></div>
                     </div>
                     <div class="facility-info" id="33">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 33
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المطعم الجامعي
-                            </div>
+                            <div class="number">رقم المبنى : 33</div>
+                            <div class="name">اسم المبنى : المطعم الجامعي</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/W8KcN5EPBc81RD5X9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/W8KcN5EPBc81RD5X9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل≈ 8:00 صباحاً - 11:30 ظهراً
-                                <br>
-                                 بعد صلاة الظهر - 3:00 عصراً
-                                <br>
+                                اوقات العمل≈ 8:00 صباحاً - 11:30 ظهراً <br>
+                                 بعد صلاة الظهر - 3:00 عصراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1467,37 +1109,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يتوفر فيه وجبات الفطور الى قبل اذان الظهر ب 30 دقيقة، ووجبات الغداء بعد صلاة الظهر
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building33.jpeg" alt="المطعم الجامعي: مبنى 33">
-                        </div>
+                        <div class="facility-img"><img src=" images/building33.jpeg" alt="المطعم الجامعي: مبنى 33"></div>
                     </div>
                     <div class="facility-info" id="34">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 34
-                            </div>
-                            <div class="name">
-                                اسم المبنى : الجامع الكبير
-                            </div>
+                            <div class="number">رقم المبنى : 34</div>
+                            <div class="name">اسم المبنى : الجامع الكبير</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/uLSaqDrm3e1TjnxY6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/uLSaqDrm3e1TjnxY6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1507,37 +1138,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يعتبر المسجد الرئيسي فالجامعة
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building34.jpeg" alt="الجامع الكبير: مبنى 34">
-                        </div>
+                        <div class="facility-img"><img src=" images/building34.jpeg" alt="الجامع الكبير: مبنى 34"></div>
                     </div>
                     <div class="facility-info" id="35">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 35
-                            </div>
-                            <div class="name">
-                                اسم المبنى : قاعات دراسية ومكاتب
-                            </div>
+                            <div class="number">رقم المبنى : 35</div>
+                            <div class="name">اسم المبنى : قاعات دراسية ومكاتب</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/WtTd98y86dXP1XGi9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/WtTd98y86dXP1XGi9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1548,36 +1168,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
-                                معلومات اضافية : فيه مكاتب لبعض معلمين كلية العلوم مثل قسم الرياضيات
+                                معلومات اضافية : فيه مكاتب لبعض معلمين كلية العلوم مثل قسم الرياضيات، كما يوجد قرطاسية فالدور الثاني
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building35.jpeg" alt="قاعات دراسية ومكاتب: مبنى 35">
-                        </div>
+                        <div class="facility-img"><img src=" images/building35.jpeg" alt="قاعات دراسية ومكاتب: مبنى 35"></div>
                     </div>
                     <div class="facility-info" id="36">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 36
-                            </div>
-                            <div class="name">
-                                اسم المبنى : مبنى وكالات الجامعة
-                            </div>
+                            <div class="number">رقم المبنى : 36</div>
+                            <div class="name">اسم المبنى : مبنى وكالات الجامعة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/fCLE44K9pweDRLbo7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/fCLE44K9pweDRLbo7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1587,37 +1196,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building36.jpeg" alt="مبنى وكالات الجامعة: مبنى 36">
-                        </div>
+                        <div class="facility-img"><img src=" images/building36.jpeg" alt="مبنى وكالات الجامعة: مبنى 36"></div>
                     </div>
                     <div class="facility-info" id="37">
                         <div class="info">
-                            <div class="number">
-                                3رقم المبنى : 7
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية العلوم
-                            </div>
+                            <div class="number">3رقم المبنى : 7</div>
+                            <div class="name">اسم المبنى : كلية العلوم</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/nb3aJsXdEow8f1udA?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/nb3aJsXdEow8f1udA?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1627,37 +1225,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building37.jpeg" alt="كلية العلوم: مبنى 37">
-                        </div>
+                        <div class="facility-img"><img src=" images/building37.jpeg" alt="كلية العلوم: مبنى 37"></div>
                     </div>
                     <div class="facility-info" id="38">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 38
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية العلوم
-                            </div>
+                            <div class="number">رقم المبنى : 38</div>
+                            <div class="name">اسم المبنى : معامل كلية العلوم</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/jLwR76qLqC2KGwPK6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/jLwR76qLqC2KGwPK6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1668,36 +1255,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building38.jpeg" alt="معامل كلية العلوم: مبنى 38">
-                        </div>
+                        <div class="facility-img"><img src=" images/building38.jpeg" alt="معامل كلية العلوم: مبنى 38"></div>
                     </div>
                     <div class="facility-info" id="39">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 39
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية العلوم
-                            </div>
+                            <div class="number">رقم المبنى : 39</div>
+                            <div class="name">اسم المبنى : معامل كلية العلوم</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/QZBUcLhRL4eELD8M7?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/QZBUcLhRL4eELD8M7?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1707,37 +1283,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building39.jpeg" alt="معامل كلية العلوم: مبنى 39">
-                        </div>
+                        <div class="facility-img"><img src=" images/building39.jpeg" alt="معامل كلية العلوم: مبنى 39"></div>
                     </div>
                     <div class="facility-info" id="40">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 40
-                            </div>
-                            <div class="name">
-                                اسم المبنى : مبنى العمادات المساندة
-                            </div>
+                            <div class="number">رقم المبنى : 40</div>
+                            <div class="name">اسم المبنى : مبنى العمادات المساندة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/BktTtnQWocFCVrpd9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/BktTtnQWocFCVrpd9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1748,36 +1313,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building40.jpeg" alt="مبنى العمادات المساندة: مبنى 40">
-                        </div>
+                        <div class="facility-img"><img src=" images/building40.jpeg" alt="مبنى العمادات المساندة: مبنى 40"></div>
                     </div>
                     <div class="facility-info" id="41">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 41
-                            </div>
-                            <div class="name">
-                                اسم المبنى : الادارة الطبية
-                            </div>
+                            <div class="number">رقم المبنى : 41</div>
+                            <div class="name">اسم المبنى : الادارة الطبية</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/oRTFBuAfEMZxtGyr6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/oRTFBuAfEMZxtGyr6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهرا <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1787,37 +1341,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {  
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يعتبر المستوصف او المشفى داخل الجامعة لجميع المنسوبين
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building41.jpeg" alt="الادارة الطبية: مبنى 41">
-                        </div>
+                        <div class="facility-img"><img src=" images/building41.jpeg" alt="الادارة الطبية: مبنى 41"></div>
                     </div>
                     <div class="facility-info" id="42">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 42
-                            </div>
-                            <div class="name">
-                                اسم المبنى : كلية الحاسبات وتقنية المعلومات
-                            </div>
+                            <div class="number">رقم المبنى : 42</div>
+                            <div class="name">اسم المبنى : كلية الحاسبات وتقنية المعلومات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/WYS1a7pBScgMbqRY9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/WYS1a7pBScgMbqRY9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1827,37 +1370,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : فيها جميع مكاتب اعضاء هيئة التدريس في كلية الحاسبات بجميع اقسامها
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building24.jpeg" alt="كلية الحاسبات وتقنية المعلومات: مبنى 24">
-                        </div>
+                        <div class="facility-img"><img src=" images/building24.jpeg" alt="كلية الحاسبات وتقنية المعلومات: مبنى 24"></div>
                     </div>
                     <div class="facility-info" id="43">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 43
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المعشبة
-                            </div>
+                            <div class="number">رقم المبنى : 43</div>
+                            <div class="name">اسم المبنى : المعشبة</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/XC1w6c7UUCrPJ3Ad6?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/XC1w6c7UUCrPJ3Ad6?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1868,76 +1400,54 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building43.jpeg" alt="المعشبة: مبنى 43">
-                        </div>
+                        <div class="facility-img"><img src=" images/building43.jpeg" alt="المعشبة: مبنى 43"></div>
                     </div>
                     <div class="facility-info" id="44">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 44
-                            </div>
-                            <div class="name">
-                                اسم المبنى : مبنى اصدار تصاريح الدخول
-                            </div>
+                            <div class="number">رقم المبنى : 44</div>
+                            <div class="name">اسم المبنى : مبنى اصدار تصاريح الدخول</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/efXebCJAsjGjE8k97?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/efXebCJAsjGjE8k97?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 3:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 3:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 15 && hours <= 23 || hours == 0) {
                                         document.write("<font color=\"red\">"+ finished +"</font>");
                                     }
-                                    if (hours == 15) {
+                                    if (hours == 14) {
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 15 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 14 && hours >= 8) {
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يتم من خلاله اصدار التصاريح للدخول داخل الجامعة بالسيارة للمتفوقين وذوي الاحتياجات الخاصة
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building44.jpeg" alt="مبنى اصدار تصاريح الدخول: مبنى 44">
-                        </div>
+                        <div class="facility-img"><img src=" images/building44.jpeg" alt="مبنى اصدار تصاريح الدخول: مبنى 44"></div>
                     </div>
                     <div class="facility-info" id="45">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 45
-                            </div>
-                            <div class="name">
-                                اسم المبنى : عمادة البحث العلمي
-                            </div>
+                            <div class="number">رقم المبنى : 45</div>
+                            <div class="name">اسم المبنى : عمادة البحث العلمي</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/UmbxFBAiZQxoSpM56?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/UmbxFBAiZQxoSpM56?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -1947,37 +1457,26 @@
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
+                                    if (hours < 12 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building45.jpeg" alt="عمادة البحث العلمي: مبنى 45">
-                        </div>
+                        <div class="facility-img"><img src=" images/building45.jpeg" alt="عمادة البحث العلمي: مبنى 45"></div>
                     </div>
                     <div class="facility-info" id="46">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 46
-                            </div>
-                            <div class="name">
-                                اسم المبنى : معامل كلية الحاسبات وتقنية المعلومات
-                            </div>
+                            <div class="number">رقم المبنى : 46</div>
+                            <div class="name">اسم المبنى : معامل كلية الحاسبات وتقنية المعلومات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/caTWxsZGHiDshBeH9?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/caTWxsZGHiDshBeH9?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 6:00 المغرب
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 6:00 المغرب <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 18 && hours <= 23 || hours == 0) {
@@ -1990,33 +1489,23 @@
                                     if (hours < 17 && hours >= 8) {
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : يكون فيها بعض الاختبارات الحضورية في البلاك بورد
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building46.jpeg" alt="معامل كلية الحاسبات: مبنى 46">
-                        </div>
+                        <div class="facility-img"><img src=" images/building46.jpeg" alt="معامل كلية الحاسبات: مبنى 46"></div>
                     </div>
                     <div class="facility-info" id="47">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى: 47
-                            </div>
-                            <div class="name">
-                                اسم المبنى : ادارة المستودعات
-                            </div>
+                            <div class="number">رقم المبنى: 47</div>
+                            <div class="name">اسم المبنى : ادارة المستودعات</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/JHV51i8oH9MfSk5p8?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/JHV51i8oH9MfSk5p8?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -2027,36 +1516,25 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
-                                    
                                 </script>
                             </div>
                             <div class="other-info">
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building47.jpeg" alt="ادارة المستودعات: مبنى 47">
-                        </div>
+                        <div class="facility-img"><img src=" images/building47.jpeg" alt="ادارة المستودعات: مبنى 47"></div>
                     </div>
                     <div class="facility-info" id="48">
                         <div class="info">
-                            <div class="number">
-                                رقم المبنى : 48
-                            </div>
-                            <div class="name">
-                                اسم المبنى : المجهر الالكتروني
-                            </div>
+                            <div class="number">رقم المبنى : 48</div>
+                            <div class="name">اسم المبنى : المجهر الالكتروني</div>
                             <div class="location">
-                                <a href="https://maps.app.goo.gl/uNzgPNWz6ChirgRFA?g_st=iw">
-                                    مكان المبنى :https://googlemap.com
-                                </a>
+                                <a href="https://maps.app.goo.gl/uNzgPNWz6ChirgRFA?g_st=iw">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً
-                                <br>
+                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
                                 <script>
                                     document.write("حالة العمل: ");
                                     if (hours >= 13 && hours <= 23 || hours == 0) {
@@ -2067,7 +1545,6 @@
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
                                     if (hours < 12 && hours >= 8) {
-                                        // document.write("<font color=green>", working, "/font");
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
                                 </script>
@@ -2076,9 +1553,7 @@
                                 معلومات اضافية : 
                             </div>
                         </div>
-                        <div class="facility-img">
-                            <img src=" images/building48.jpeg" alt="المجهر الالكتروني: مبنى 48">
-                        </div>
+                        <div class="facility-img"><img src=" images/building48.jpeg" alt="المجهر الالكتروني: مبنى 48"></div>
                     </div>
                 </div>
             </div>        
