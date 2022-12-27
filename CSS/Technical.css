@@ -39,11 +39,20 @@
 .container form textarea {
     margin-bottom: 20px;
 }
+.container form input,
+.container form select,
+.container form textarea {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
 .container form input.submit {
-    background-color: tomato;
+    background-color:#d4b152;
     color: white;
-    width: 50%;
+    width: 30%;
     margin: auto;
+    border-radius:20px ;
+    border: 1px;
 }
 footer {
     margin-top: 40px;
