@@ -1,0 +1,88 @@
+:root {
+    --main-color: #d4b152;
+    --facility-background: #d4b152ad;
+    --facility-content: rgb(255, 255, 255);
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 90%;
+    margin-right: 5%;
+}
+.search {
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+.class-num {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: var(--main-color);
+    height: 20%;
+}
+.class-num:first-child {
+    height: 170px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.class-num span {
+    display: flex;
+    flex-direction: column;
+}
+.class-num > span {
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.fullnumber {
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+}
+.class-num span.building {
+    /* background-color: #ff6347de; */
+    border: 5px solid #ff6347de;
+}
+.class-num span.floor {
+    /* background-color: cadetblue; */
+    border: 5px solid cadetblue;
+}
+.class-num span.room {
+    /* background-color: #0000ff81; */
+    border: 5px solid #0000ff81;
+}
+.class-num span > span {
+    font-size: 20px;
+    align-items: center;
+}
+.class-num:nth-child(2),
+.class-num:nth-child(3),
+.class-num:nth-child(4)
+{
+    font-size: 18px;
+    border-radius: 100px;
+    padding: 20px 20px;
+    margin: 20px 0;
+}
+.class-num:nth-child(2) {
+    /* background-color: #ff6347de; */
+    border: 10px solid #ff6347de;
+}
+.class-num:nth-child(3) {
+    /* background-color: cadetblue; */
+    border: 10px solid cadetblue;
+}
+.class-num:nth-child(4) {
+    /* background-color: #0000ff81; */
+    border: 10px solid #0000ff81;
+}
