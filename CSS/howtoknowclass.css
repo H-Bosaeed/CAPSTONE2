@@ -16,6 +16,16 @@
     width: 90%;
     margin-right: 5%;
 }
+@media (min-width: 600px) {
+    .container {
+        top: 57%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        top: 60%;
+    }
+}
 .search {
     font-weight: bold;
     color: white;
