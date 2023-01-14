@@ -164,17 +164,17 @@
                                 <a href="https://goo.gl/maps/V96AMJAzYq5E3BgZ9">مكان المبنى :https://googlemap.com</a>
                             </div>
                             <div class="working-hours">
-                                اوقات العمل: 8:00 صباحاً - 1:00 ظهراً <br>
+                                اوقات العمل: 8:00 صباحاً - 7:00 مساء <br>
                                 <script>
                                     document.write("حالة العمل: ");
-                                    if (hours >= 13 && hours <= 23 || hours == 0) {
+                                    if (hours >= 20 && hours <= 23 || hours == 0) {
                                         document.write("<font color=\"red\">"+ finished +"</font>");
                                     }
-                                    if (hours == 12) {
+                                    if (hours == 18) {
                                         document.write(soon + " ");
                                         document.write("<font color=\"Tomato\">"+  (60-min)  +" دقيقة" + "</font>");
                                     }
-                                    if (hours < 12 && hours >= 8) {   
+                                    if (hours < 18 && hours >= 8) {   
                                         document.write("<font color=\"green\">" + working + "</font>");
                                     }
                                 </script>
